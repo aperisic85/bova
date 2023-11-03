@@ -1,0 +1,177 @@
+{
+    "head": {
+        "transaction": 0,
+        "signature": 9514,
+        "environment": {
+            "station_name": "Bova  01",
+            "table_name": "Measurements_10min",
+            "model": "CR300",
+            "serial_no": "10945",
+            "os_version": "CR310-RF422.Std.10.07",
+            "prog_name": "CPU:main.CR300"
+        },
+        "fields": [
+            {
+                "name": "Datalogger_temperature_Avg",
+                "type": "xsd:float",
+                "units": "C",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Solar_panel_voltage_Avg",
+                "type": "xsd:float",
+                "units": "V",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Battery_voltage_Avg",
+                "type": "xsd:float",
+                "units": "V",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Battery_current_Avg",
+                "type": "xsd:float",
+                "units": "mA",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Battery_status",
+                "type": "xsd:float",
+                "process": "Smp",
+                "settable": false
+            },
+            {
+                "name": "Battery_status_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Solar_panel_day_light",
+                "type": "xsd:float",
+                "process": "Smp",
+                "settable": false
+            },
+            {
+                "name": "Solar_panel_day_light_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Modem_power_state_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Internet_connection_ok_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Garmin_communication_ok_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Garmin_number_of_sattelites_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Garmin_latitude_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Garmin_longitude_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Garmin_distance_Avg",
+                "type": "xsd:float",
+                "units": "m",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Lantern_communication_ok_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Lantern_light_active_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Lantern_current_Avg",
+                "type": "xsd:float",
+                "units": "mA",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Lantern_latitude_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Lantern_longitude_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            },
+            {
+                "name": "Lantern_distance_Avg",
+                "type": "xsd:float",
+                "process": "Avg",
+                "settable": false
+            }
+        ]
+    },
+    "data": [
+        {
+            "time": "2023-11-02T14:50:00",
+            "no": 8,
+            "vals": [
+                26.96,
+                12.48,
+                12,
+                -136.1,
+                3,
+                3,
+                1,
+                1,
+                0.402,
+                0.18,
+                1,
+                7.807,
+                45.79506,
+                15.96471,
+                854.8314,
+                1,
+                1,
+                22.12,
+                45.79517,
+                15.96481,
+                840.9
+            ]
+        }
+    ]
+}
